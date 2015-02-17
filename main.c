@@ -1,10 +1,10 @@
 /* */
 /******************************************************************************
-Date: 
-Program: 
-Filename: 
-Author: 
-Description: 
+Date:
+Program:
+Filename:
+Author:
+Description:
 ******************************************************************************/
 /*Preprocessor*/
 #include <stdio.h>
@@ -17,13 +17,17 @@ void sprinkle_fairy_dust_over_that(void);
 int main(int argc,char *argv[]){
   /*inspect arguments*/
   /*declare variables*/
-	
+
   /*core program*/
 	sprinkle_fairy_dust_over_that();
-	
+
   exit(EXIT_SUCCESS);
 }
 
 void sprinkle_fairy_dust_over_that(void){
 	printf("%s\n","magic!");
+}
+
+bool just_fix_it_on_production(void){
+    return false;
 }
